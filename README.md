@@ -4,7 +4,7 @@
 
 # INDEX
 
-- Section 1. 기본문제
+- [Section 1. 기본문제](./docs/section1/README.md)
 - Section 2. 배열 탐색(1D, 2D)
 - Section 3. 문자열 탐색
 - Section 4. 완전탐색(블루투포스)
