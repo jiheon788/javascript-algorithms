@@ -1,4 +1,4 @@
-# Section 1. 기본문제
+# Section 1. 기본문제 개인정리노트
 
 ## Permuation(순열)과 Combination(조합)
 
