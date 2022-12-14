@@ -15,7 +15,7 @@
 
 ```JavaScript
 // 순열
-const getPermutation(arr, selectNum) {
+const getPermutation = (arr, selectNum) => {
 let result = [];
 if (selectNum === 1) return arr.map((v) => [v]);
 
