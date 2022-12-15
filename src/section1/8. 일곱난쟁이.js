@@ -26,7 +26,7 @@ const getSum = (arr) => {
 }
 
 function solution(arr){
-  let answer = getCombination(arr, 7).filter(combination => 
+  let answer = getCombination(arr, NUM_OF_DWARF).filter(combination => 
     getSum(combination) === 100
   )
   
