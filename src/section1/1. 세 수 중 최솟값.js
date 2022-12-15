@@ -1,8 +1,6 @@
 // 조건문
 function solution(a, b, c){
-    let answer = a < b && a < c ? a : b < c ? b : c
-    
-    return answer;
+    return a < b && a < c ? a : b < c ? b : c;
 }
 
 // 내장함수이용

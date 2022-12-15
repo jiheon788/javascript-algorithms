@@ -11,7 +11,7 @@
     "release": "standard-version"
   },
   "keywords": [],
-  "author": "JH",
+  "author": "jiheon788",
   "engineStrict": true,
   "engines": {
     "npm": ">=6.0.0",

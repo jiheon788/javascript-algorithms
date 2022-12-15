@@ -1,4 +1,6 @@
 node_modules
 
-*.pdf
-*.txt
+_tests_
+
+docs/*/*.pdf
+docs/*/*.txt
