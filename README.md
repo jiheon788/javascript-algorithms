@@ -2,7 +2,7 @@
 
 자바스크립트 알고리즘 문제 풀이 저장소
 
-# INDEX
+# 📑 NOTE INDEX
 
 - [Section 1. 기본문제](./docs/section1/README.md)
 - Section 2. 배열 탐색(1D, 2D)
@@ -15,7 +15,7 @@
 - Section 9. 그래프와 탐색(DFS, BFS:넓이우선탐색)
 - Section 10. Dynamic programming(동적계획법 )
 
-# DIRECTORY
+# 📁 DIRECTORY
 
 ```
 ├── docs: 문제, 정답코드 및 개인 정리 노트
