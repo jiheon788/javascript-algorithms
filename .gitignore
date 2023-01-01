@@ -2,5 +2,5 @@ node_modules
 
 _tests_
 
-docs/*/*.pdf
-docs/*/*.txt
+
+docs
