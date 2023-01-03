@@ -18,5 +18,5 @@
 │   └── Section 10. Dynamic programming(동적계획법 )
 │   
 └── 프로그래머스
-    # This is a auto push repository for Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+    # This is a auto push repository for Programmers created with BaekjoonHub.
 ``` 
