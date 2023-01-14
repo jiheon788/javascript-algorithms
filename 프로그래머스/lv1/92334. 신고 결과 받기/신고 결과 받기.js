@@ -2,7 +2,7 @@ function solution(idList, report, k) {
     let blackList = {}; // {신고자: [신고1, 신고2]}
     let blackCntList = {}; // {신고1: 1}
     let suspensionList = [];
-    let answer = Array(idList.length).fill(0);
+    let answer = [];
     
     // init
     idList.forEach(id => {
@@ -24,15 +24,25 @@ function solution(idList, report, k) {
         };
     })
     
-    let index = 0;
-    for (let key in blackList) {
-        const reporteds = blackList[key]
-        reporteds.forEach(reported => {
-            if (suspensionList.includes(reported)) answer[index] += 1;
-        })
-        
-        index += 1;
+    for (let id of idList) {
+        mail = 0
+        for (let reported of blackList[id]) {
+            if (blackCntList[reported] >= k) mail += 1;
+        }
+        answer.push(mail)
     }
+    
+//     let index = 0;
+//     for (let key in blackList) {
+//         const reporteds = blackList[key]
+//         reporteds.forEach(reported => {
+//             if (suspensionList.includes(reported)) answer[index] += 1;
+//         })
+        
+//         index += 1;
+//     }
+    // console.log(blackList)
+    // console.log(blackCntList)
     
     return answer;
 }
