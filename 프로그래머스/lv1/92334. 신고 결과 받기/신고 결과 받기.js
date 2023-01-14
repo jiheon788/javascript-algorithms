@@ -1,7 +1,6 @@
 function solution(idList, report, k) {
     let blackList = {}; // {신고자: [신고1, 신고2]}
     let blackCntList = {}; // {신고1: 1}
-    let suspensionList = [];
     let answer = [];
     
     // init
@@ -19,8 +18,6 @@ function solution(idList, report, k) {
         if (!blackList[reporter].includes(reported)) {
             blackList[reporter].push(reported);
             blackCntList[reported] += 1
-            
-            if (blackCntList[reported] === k) suspensionList.push(reported);
         };
     })
     
@@ -31,18 +28,6 @@ function solution(idList, report, k) {
         }
         answer.push(mail)
     }
-    
-//     let index = 0;
-//     for (let key in blackList) {
-//         const reporteds = blackList[key]
-//         reporteds.forEach(reported => {
-//             if (suspensionList.includes(reported)) answer[index] += 1;
-//         })
-        
-//         index += 1;
-//     }
-    // console.log(blackList)
-    // console.log(blackCntList)
     
     return answer;
 }
