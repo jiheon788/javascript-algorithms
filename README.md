@@ -12,7 +12,6 @@
 
 ![image](https://user-images.githubusercontent.com/90181028/210507065-c02e2560-8e3d-4a15-a1e0-a5dbaf824e6c.png)
 
-- lv1
 
 ### 2. [인프런: 자바스크립트 알고리즘](https://github.com/jiheon788/javascript-algorithms/tree/master/src)
 
