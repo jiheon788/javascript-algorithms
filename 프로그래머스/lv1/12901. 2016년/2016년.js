@@ -6,8 +6,8 @@ const DAYMAP = {
     '4': "THU",
     '5': "FRI",
     '6': "SAT",
-    
 }
+
 function solution(a, b) {
     return DAYMAP[new Date(`2016-${a}-${b}`).getDay()];
 }
