@@ -1,6 +1,6 @@
 # 자바스크립트-알고리즘
 
-자바스크립트 알고리즘 문제 풀이 저장소
+> 자바스크립트 알고리즘 문제 풀이 저장소
 
 <br>
 
@@ -12,8 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/90181028/210507065-c02e2560-8e3d-4a15-a1e0-a5dbaf824e6c.png)
 
-
-### 2. [인프런: 자바스크립트 알고리즘](https://github.com/jiheon788/javascript-algorithms/tree/master/src)
+### 2. [인프런: 자바스크립트 알고리즘](/%EC%9D%B8%ED%94%84%EB%9F%B0/)
 
 ![image](https://user-images.githubusercontent.com/90181028/210507427-d6a455df-7504-47a7-832b-a0bdbd4bae24.png)
 
