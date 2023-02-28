@@ -1,14 +1,13 @@
 function solution(s) {
   let stack = [];
 
-  s.split("").map((item) => {
-    stack.push(item);
-
-    if (stack[stack.length - 1] == ")") {
-      stack.pop();
+  for (const char of s) {
+    if (char === '(') stack.push(char)
+    else {
+      if (stack.length === 0) return false;
       stack.pop();
     }
-  })
+  }
 
   return stack.length === 0 ? "YES" : "NO"
 }
