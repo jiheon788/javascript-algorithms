@@ -6,7 +6,7 @@
 
 ## 📑 INDEX
 
-### 1. [Programmers](https://github.com/jiheon788/javascript-algorithms/tree/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4)
+### 1. [Programmers](/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/)
 
 > _This is a auto push repository for Programmers created with BaekjoonHub._
 
