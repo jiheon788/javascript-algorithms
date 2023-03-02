@@ -4,7 +4,7 @@ function solution(m, products) {
   let answer = [];
   for (let i = 0; i < products.length; i++) {
     let stack = [];
-    let sortedProducts = products.map(v => [...v]).sort((a, b) => a[0] - b[0]);
+    let sortedProducts = products.map(v => [...v]).sort((a, b) => (a[0] + a[1]) - (b[0] + b[1]));
     sortedProducts[i][0] = sortedProducts[i][0] / 2;
 
     sortedProducts.map((sortedProduct) => {
