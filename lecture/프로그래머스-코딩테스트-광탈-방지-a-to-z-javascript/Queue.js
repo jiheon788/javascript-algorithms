@@ -1,7 +1,7 @@
 class Queue {
   constructor() {
     this.queue = [];
-    this.head = 0;
+    this.front = 0;
     this.rear = 0;
   }
 
@@ -10,19 +10,19 @@ class Queue {
   }
 
   dequeue() {
-    const value = this.queue[this.head];
-    delete this.queue[this.head];
-    this.head += 1;
+    const value = this.queue[this.front];
+    delete this.queue[this.front];
+    this.front += 1;
 
     return value;
   }
 
   peek() {
-    return this.queue[this.head];
+    return this.queue[this.front];
   }
 
   size() {
-    return this.rear - this.head;
+    return this.rear - this.front;
   }
 }
 
